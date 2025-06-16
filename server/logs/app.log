@@ -1,0 +1,351 @@
+{"level":"info","message":"Starting server","timestamp":"2025-06-14T12:22:37.338Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-14T12:22:37.634Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-14T12:22:39.250Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-14T12:22:39.675Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-14T12:23:10.301Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-14T12:23:10.821Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-14T12:23:10.608Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-14T12:23:11.564Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-14T12:23:12.366Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-14T12:23:17.213Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-14T12:23:19.837Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-14T12:23:22.594Z"}
+{"data":{"city":"Москва","confirmPassword":"gurtg53","email":"gurtg53@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-14T12:23:33.994Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"User registered successfully","timestamp":"2025-06-14T12:23:34.460Z","userId":2}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-14T12:23:34.544Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-14T12:23:43.634Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-14T12:23:46.088Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","timestamp":"2025-06-14T12:23:46.413Z","userId":2}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-14T12:23:46.449Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-14T12:24:01.726Z"}
+{"error":"SQLITE_ERROR: no such column: Service.masterId","level":"error","message":"Error fetching master dashboard","timestamp":"2025-06-14T12:24:36.943Z"}
+{"level":"warn","message":"Unauthorized admin access attempt","timestamp":"2025-06-14T12:25:25.053Z","user":"gurtg53@gmail.com"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-14T12:25:25.081Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-14T12:26:32.797Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","timestamp":"2025-06-14T12:26:33.161Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/services","timestamp":"2025-06-14T12:26:52.910Z"}
+{"level":"warn","message":"404 Error","path":"/admin/users","timestamp":"2025-06-14T12:26:59.221Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-14T12:27:00.447Z"}
+{"level":"warn","message":"404 Error","path":"/admin/services","timestamp":"2025-06-14T12:27:05.595Z"}
+{"level":"warn","message":"404 Error","path":"/admin/services","timestamp":"2025-06-14T12:27:09.776Z"}
+{"level":"warn","message":"404 Error","path":"/admin/orders","timestamp":"2025-06-14T12:27:13.456Z"}
+{"level":"warn","message":"404 Error","path":"/admin/settings","timestamp":"2025-06-14T12:27:16.057Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-14T19:17:08.494Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-14T19:17:08.768Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-14T19:17:08.864Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-14T19:17:09.261Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-14T19:17:11.967Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-14T19:17:14.670Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-14T19:17:14.955Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:17:15.013Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-14T19:17:30.945Z","title":"еуые"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:17:30.997Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:17:38.890Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:17:42.541Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:05.363Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:11.927Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/login","timestamp":"2025-06-14T19:18:35.614Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:37.006Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/users","timestamp":"2025-06-14T19:18:41.068Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:42.337Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/services","timestamp":"2025-06-14T19:18:43.991Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:45.215Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/orders","timestamp":"2025-06-14T19:18:46.390Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:47.525Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/settings","timestamp":"2025-06-14T19:18:48.749Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-14T19:18:50.045Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/orders","timestamp":"2025-06-14T19:18:55.858Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-14T19:19:30.327Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-14T19:19:30.594Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-14T19:19:30.687Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-14T19:19:34.944Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-14T19:19:46.077Z"}
+{"data":{"city":"Москва","confirmPassword":"gurtg53","email":"gurtg53@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"client"},"level":"info","message":"Registration attempt","timestamp":"2025-06-14T19:20:00.455Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"User registered successfully","role":"client","timestamp":"2025-06-14T19:20:01.011Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-14T19:20:01.120Z","userId":2}
+{"data":{"city":"Москва","confirmPassword":"gurtg53","email":"gurtg3@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522477","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-14T19:20:25.592Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"User registered successfully","role":"master","timestamp":"2025-06-14T19:20:26.060Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-14T19:20:26.104Z","userId":3}
+{"level":"warn","message":"404 Error","path":"/services/create","timestamp":"2025-06-14T19:20:32.160Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-14T19:20:34.000Z","userId":3}
+{"level":"warn","message":"404 Error","path":"/master/orders","timestamp":"2025-06-14T19:20:43.019Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-14T19:20:44.227Z","userId":3}
+{"level":"warn","message":"404 Error","path":"/master/payments","timestamp":"2025-06-14T19:20:45.504Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-14T19:20:46.575Z","userId":3}
+{"level":"warn","message":"404 Error","path":"/master/profile","timestamp":"2025-06-14T19:20:47.413Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-14T19:20:48.719Z","userId":3}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T08:35:31.638Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T08:35:31.988Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T08:35:32.106Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T08:35:37.876Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:35:41.227Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T08:35:44.741Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T08:35:45.031Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:35:45.095Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-15T08:35:49.610Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:35:53.324Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:35:57.043Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-15T08:35:58.049Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:35:59.199Z","userId":1}
+{"level":"info","message":"Admin orders page loaded","timestamp":"2025-06-15T08:35:59.990Z","userId":1}
+{"level":"info","message":"Admin settings page loaded","timestamp":"2025-06-15T08:36:04.430Z","userId":1}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:36:20.766Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T08:36:26.056Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"Login successful","role":"master","timestamp":"2025-06-15T08:36:26.343Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:36:26.379Z","userId":3}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T08:36:30.788Z","userId":3}
+{"level":"info","message":"Master payments page loaded","timestamp":"2025-06-15T08:36:33.042Z","userId":3}
+{"level":"info","message":"Master payments page loaded","timestamp":"2025-06-15T08:36:36.688Z","userId":3}
+{"level":"info","message":"Master profile page loaded","timestamp":"2025-06-15T08:36:39.386Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:36:42.972Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:36:44.674Z","userId":3}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T08:36:59.902Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","role":"client","timestamp":"2025-06-15T08:37:00.186Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:37:00.211Z","userId":2}
+{"level":"info","message":"Client order creation page loaded","timestamp":"2025-06-15T08:37:02.414Z","userId":2}
+{"error":"notNull Violation: Order.serviceId cannot be null,\nnotNull Violation: Order.address cannot be null,\nnotNull Violation: Order.dateTime cannot be null","level":"error","message":"Error creating order","timestamp":"2025-06-15T08:37:09.955Z"}
+{"level":"warn","message":"404 Error","path":"/client/profile","timestamp":"2025-06-15T08:37:20.923Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:37:22.364Z","userId":2}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T08:45:03.084Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T08:45:03.398Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T08:45:03.490Z"}
+{"error":"SQLITE_ERROR: no such table: Users","level":"error","message":"Error auto-registering admin","timestamp":"2025-06-15T08:45:03.498Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T08:45:43.898Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T08:45:44.107Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T08:45:44.166Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-15T08:45:44.716Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-15T08:46:01.367Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:46:04.401Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T08:46:07.405Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T08:46:07.756Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:46:07.853Z","userId":1}
+{"level":"info","message":"Admin settings page loaded","timestamp":"2025-06-15T08:46:11.962Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/admin/settings","timestamp":"2025-06-15T08:46:19.331Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:46:20.838Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T08:46:32.687Z","title":"ененненен"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:46:32.755Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T08:46:42.753Z","title":"5565565"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:46:42.800Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T08:46:54.824Z","title":"цйцйцйцйц"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:46:54.855Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T08:47:04.404Z","title":"рвпапвапа"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:47:04.431Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-15T08:47:05.803Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T08:47:07.471Z","userId":1}
+{"level":"info","message":"Admin orders page loaded","timestamp":"2025-06-15T08:47:12.255Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:47:25.413Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:47:29.958Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/login","timestamp":"2025-06-15T08:47:45.038Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T08:47:47.056Z","userId":1}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:47:51.327Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:47:52.225Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T08:47:58.693Z"}
+{"data":{"city":"Москва","confirmPassword":"gurtg53","email":"gurtg53@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"client"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T08:48:10.969Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"User registered successfully","role":"client","timestamp":"2025-06-15T08:48:11.932Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:48:12.110Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/client/profile","timestamp":"2025-06-15T08:48:14.514Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:48:15.845Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T08:48:23.068Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:48:24.649Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T08:48:28.583Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:48:32.703Z","userId":2}
+{"level":"info","message":"Homepage loaded","serviceCount":4,"timestamp":"2025-06-15T08:48:48.130Z"}
+{"level":"warn","message":"404 Error","path":"/favicon.ico","timestamp":"2025-06-15T08:48:49.103Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T08:50:17.668Z"}
+{"data":{"city":"Санкт-Петербург","confirmPassword":"gurtg53","email":"gurtg3@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522477","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T08:50:30.438Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"User registered successfully","role":"master","timestamp":"2025-06-15T08:50:30.887Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:50:30.941Z","userId":3}
+{"level":"info","message":"Master service creation page loaded","timestamp":"2025-06-15T08:50:32.639Z","userId":3}
+{"level":"info","message":"Service created by master","timestamp":"2025-06-15T08:50:42.802Z","title":"5655656","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:50:42.856Z","userId":3}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T08:50:46.180Z","userId":3}
+{"level":"info","message":"Master payments page loaded","timestamp":"2025-06-15T08:50:47.666Z","userId":3}
+{"level":"info","message":"Master profile page loaded","timestamp":"2025-06-15T08:50:56.624Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:50:58.311Z","userId":3}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T08:56:54.268Z","userId":3}
+{"level":"info","message":"Master service creation page loaded","timestamp":"2025-06-15T08:57:10.514Z","userId":3}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T08:57:17.490Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T08:57:28.955Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T08:57:32.944Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","role":"client","timestamp":"2025-06-15T08:57:33.238Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:57:33.269Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:57:42.644Z"}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:57:53.359Z"}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T08:57:59.431Z"}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:57:59.716Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:58:01.409Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:01.579Z"}
+{"level":"warn","message":"404 Error","path":"/client/profile","timestamp":"2025-06-15T08:58:05.163Z"}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:05.378Z"}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T08:58:06.899Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:07.166Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T08:58:15.085Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:15.321Z"}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T08:58:19.848Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:20.062Z"}
+{"level":"info","message":"Master payments page loaded","timestamp":"2025-06-15T08:58:21.670Z","userId":2}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T08:58:21.923Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T20:56:14.476Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T20:56:14.764Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T20:56:14.847Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":5,"timestamp":"2025-06-15T20:56:27.595Z"}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T20:56:28.012Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T20:56:36.153Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T20:56:39.157Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","role":"client","timestamp":"2025-06-15T20:56:39.463Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T20:56:39.529Z","userId":2}
+{"error":"SQLITE_ERROR: no such table: Settings","level":"error","message":"Error loading client dashboard","timestamp":"2025-06-15T20:56:39.547Z"}
+{"level":"warn","message":"Unauthorized admin access attempt","timestamp":"2025-06-15T20:56:53.265Z","user":"gurtg53@gmail.com"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T20:56:53.294Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T20:56:57.223Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T20:56:57.544Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T20:56:57.600Z","userId":1}
+{"error":"SQLITE_ERROR: no such table: Settings","level":"error","message":"Error loading admin dashboard","timestamp":"2025-06-15T20:56:57.618Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T20:57:21.915Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T20:57:22.122Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T20:57:22.187Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T20:57:43.678Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T20:57:43.985Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T20:57:44.084Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-15T20:57:44.205Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-15T20:57:44.868Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T20:57:46.124Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T20:57:52.366Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T20:58:07.258Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T20:58:11.496Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T20:58:11.790Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T20:58:11.852Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-15T20:58:21.667Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T20:58:23.765Z","userId":1}
+{"error":"User is not associated to Order!","level":"error","message":"Error loading admin orders","timestamp":"2025-06-15T20:58:25.787Z"}
+{"error":"User is not associated to Order!","level":"error","message":"Error loading admin orders","timestamp":"2025-06-15T20:58:28.845Z"}
+{"level":"info","message":"Admin settings page loaded","timestamp":"2025-06-15T20:58:36.434Z","userId":1}
+{"level":"info","message":"Settings updated successfully","timestamp":"2025-06-15T20:58:50.584Z","userId":1}
+{"level":"info","message":"Admin settings page loaded","timestamp":"2025-06-15T20:58:50.617Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T20:58:54.190Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-15T20:58:59.463Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T20:59:00.684Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T20:59:21.199Z","title":"rtertrtert"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T20:59:21.228Z","userId":1}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T20:59:31.490Z"}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T20:59:34.019Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T20:59:35.958Z"}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T20:59:46.482Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T20:59:53.208Z","userId":1}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:00:03.964Z"}
+{"data":{"city":"Сочи","confirmPassword":"gurtg53","email":"gurtg3@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T21:00:27.999Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"User registered successfully","role":"master","timestamp":"2025-06-15T21:00:28.442Z","userId":2}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:00:28.476Z","userId":2}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T21:14:55.352Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T21:14:55.560Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T21:14:55.622Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-15T21:14:56.145Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-15T21:15:05.674Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:15:08.606Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:15:14.424Z"}
+{"email":"gurtg3@gmail.com","level":"warn","message":"Invalid login attempt","timestamp":"2025-06-15T21:15:14.447Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:15:16.465Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T21:15:16.791Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T21:15:16.889Z","userId":1}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T21:15:26.311Z"}
+{"data":{"city":"gurtg53@gmail.com","confirmPassword":"gurtg53","email":"gurtg53@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"client"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T21:15:35.334Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"User registered successfully","role":"client","timestamp":"2025-06-15T21:15:35.789Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T21:15:35.838Z","userId":2}
+{"data":{"city":"Сочи","confirmPassword":"gurtg3@","email":"gurtg3@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg3@","phone":"89996522479","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T21:16:42.632Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"User registered successfully","role":"master","timestamp":"2025-06-15T21:16:43.097Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:16:43.148Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:38:31.856Z","userId":3}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:38:32.147Z","userId":3}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T21:38:56.756Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T21:38:57.022Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T21:38:57.109Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":0,"timestamp":"2025-06-15T21:38:57.266Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:39:01.691Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:39:08.033Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:39:10.446Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T21:39:10.722Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T21:39:10.782Z","userId":1}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T21:39:14.439Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T21:39:48.891Z","title":"Ремонт  Техники"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T21:39:48.927Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T21:39:59.018Z","userId":1}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T21:40:08.928Z"}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T21:40:13.854Z"}
+{"level":"warn","message":"404 Error","path":"/admin","timestamp":"2025-06-15T21:44:18.737Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:44:22.070Z"}
+{"email":"gurtg3@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:44:27.506Z"}
+{"email":"gurtg3@gmail.com","level":"warn","message":"Invalid login attempt","timestamp":"2025-06-15T21:44:27.839Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:44:37.229Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","role":"client","timestamp":"2025-06-15T21:44:37.527Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T21:44:37.558Z","userId":2}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T21:45:42.687Z"}
+{"data":{"city":"gurtg3@gmail.com","confirmPassword":"gurtg53","email":"gurtg3@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53","phone":"89996522476","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T21:45:56.910Z"}
+{"error":"Validation error","level":"error","message":"Registration error","timestamp":"2025-06-15T21:45:57.232Z"}
+{"data":{"city":"Сочи","confirmPassword":"gurtg37@","email":"gurtg37@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg37@","phone":"89996522478","role":"master"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T21:46:41.840Z"}
+{"email":"gurtg37@gmail.com","level":"info","message":"User registered successfully","role":"master","timestamp":"2025-06-15T21:46:42.358Z","userId":4}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:46:42.413Z","userId":4}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T21:58:46.014Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T21:58:46.232Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T21:58:46.289Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T21:58:52.171Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T21:58:55.478Z"}
+{"email":"gurtg37@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T21:59:09.020Z"}
+{"email":"gurtg37@gmail.com","level":"info","message":"Login successful","role":"master","timestamp":"2025-06-15T21:59:09.332Z","userId":4}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:59:09.403Z","userId":4}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T21:59:14.091Z","userId":4}
+{"level":"info","message":"Master payments page loaded","timestamp":"2025-06-15T21:59:16.281Z","userId":4}
+{"level":"info","message":"Master profile page loaded","timestamp":"2025-06-15T21:59:18.240Z","userId":4}
+{"level":"info","message":"Master service creation page loaded","timestamp":"2025-06-15T21:59:21.558Z","userId":4}
+{"level":"info","message":"Master dashboard loaded","timestamp":"2025-06-15T21:59:24.672Z","userId":4}
+{"level":"warn","message":"404 Error","path":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-06-15T21:59:40.504Z"}
+{"level":"info","message":"Master orders page loaded","timestamp":"2025-06-15T22:00:04.569Z","userId":4}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T22:00:15.890Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T22:00:19.862Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"Login successful","role":"client","timestamp":"2025-06-15T22:00:20.196Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T22:00:20.225Z","userId":2}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T22:45:01.770Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T22:45:01.970Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T22:45:02.347Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T22:45:19.653Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T22:45:24.600Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T22:45:27.765Z"}
+{"data":{"city":"Сочи","confirmPassword":"gurtg37@","email":"gurtg37@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg37@","phone":"89996522476","role":"client"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T22:45:43.165Z"}
+{"error":"Validation error","level":"error","message":"Registration error","timestamp":"2025-06-15T22:45:43.503Z"}
+{"level":"info","message":"Starting server","timestamp":"2025-06-15T22:48:38.768Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-15T22:48:38.932Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-15T22:48:39.082Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-15T22:48:39.446Z"}
+{"data":{"city":"Сочи","confirmPassword":"gurtg53@","email":"gurtg53@gmail.com","firstName":"Антон","lastName":"А","password":"gurtg53@","phone":"89996522478","role":"client"},"level":"info","message":"Registration attempt","timestamp":"2025-06-15T22:49:32.792Z"}
+{"email":"gurtg53@gmail.com","level":"info","message":"User registered successfully","role":"client","timestamp":"2025-06-15T22:49:33.245Z","userId":2}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T22:49:33.353Z","userId":2}
+{"level":"warn","message":"Unauthorized admin access attempt","timestamp":"2025-06-15T22:49:57.784Z","user":"gurtg53@gmail.com"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T22:49:57.835Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-15T22:49:59.758Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login attempt","timestamp":"2025-06-15T22:50:03.536Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Login successful","role":"admin","timestamp":"2025-06-15T22:50:03.894Z","userId":1}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T22:50:03.961Z","userId":1}
+{"level":"info","message":"Service created successfully","timestamp":"2025-06-15T22:50:45.634Z","title":"Муж на час"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-15T22:50:45.671Z","userId":1}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T22:50:50.859Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/orders/create","timestamp":"2025-06-15T22:50:56.145Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-15T22:51:00.437Z","userId":1}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T22:51:35.414Z","userId":1}
+{"level":"warn","message":"404 Error","path":"/client/orders","timestamp":"2025-06-15T22:51:38.286Z"}
+{"level":"warn","message":"404 Error","path":"/client/payments","timestamp":"2025-06-15T22:51:42.612Z"}
+{"level":"info","message":"Client profile page loaded","timestamp":"2025-06-15T22:51:45.724Z","userId":1}
+{"level":"info","message":"Client dashboard loaded","timestamp":"2025-06-15T22:51:47.691Z","userId":1}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-15T22:53:26.986Z"}
+{"level":"info","message":"Accessed registration page","timestamp":"2025-06-15T22:57:13.570Z"}
+{"level":"warn","message":"404 Error","path":"/client/orders","timestamp":"2025-06-16T16:15:57.365Z"}
+{"level":"info","message":"Admin dashboard loaded","timestamp":"2025-06-16T16:16:00.223Z","userId":1}
+{"error":"User is not associated to Order!","level":"error","message":"Error loading admin orders","timestamp":"2025-06-16T16:16:18.271Z"}
+{"level":"info","message":"Homepage loaded","serviceCount":1,"timestamp":"2025-06-16T17:53:09.449Z"}
+{"level":"info","message":"Accessed login page","timestamp":"2025-06-16T17:53:48.032Z"}
+{"level":"info","message":"Admin services page loaded","timestamp":"2025-06-16T17:54:13.389Z","userId":1}
+{"error":"User is not associated to Order!","level":"error","message":"Error loading admin orders","timestamp":"2025-06-16T17:54:15.877Z"}
+{"level":"info","message":"Admin settings page loaded","timestamp":"2025-06-16T17:54:20.662Z","userId":1}
+{"level":"info","message":"Admin users page loaded","timestamp":"2025-06-16T17:54:30.174Z","userId":1}
+{"level":"info","message":"Starting server","timestamp":"2025-06-16T18:33:43.841Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-16T18:33:44.592Z"}
+{"email":"admin@homeservicepro.com","level":"info","message":"Admin user auto-registered","timestamp":"2025-06-16T18:33:46.154Z"}
+{"level":"info","message":"Database synchronized successfully","timestamp":"2025-06-16T18:33:47.379Z"}

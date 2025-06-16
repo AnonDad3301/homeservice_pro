@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявки | HomeService Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: <%= styles.primary %>;
+            --secondary: <%= styles.secondary %>;
+            --success: #4cc9f0;
+            --warning: #ffb703;
+            --danger: #e63946;
+            --dark: #2b2d42;
+            --light: #f8f9fa;
+            --gray: #8d99ae;
+            --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: <%= styles.background %>;
+            color: var(--dark);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: linear-gradient(180deg, var(--dark) 0%, #1d1f30 100%);
+            color: white;
+            padding: 1.5rem 0;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--card-shadow);
+            z-index: 100;
+        }
+
+        .brand {
+            padding: 0 1.5rem 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 1rem;
+        }
+
+        .brand h2 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.4rem;
+        }
+
+        .brand i {
+            color: var(--success);
+        }
+
+        .nav-links {
+            flex: 1;
+            padding: 0 1rem;
+        }
+
+        .nav-links li {
+            list-style: none;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .nav-links a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0.85rem 1rem;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .nav-links i {
+            width: 24px;
+            text-align: center;
+        }
+
+        .content {
+            flex: 1;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.75rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-header h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .data-list {
+            margin-top: 1.5rem;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #eee;
+        }
+
+        .list-header {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background: #f8f9fa;
+            padding: 1rem 1.5rem;
+            font-weight: 600;
+            border-bottom: 1px solid #eee;
+        }
+
+        .list-item {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #f0f0f0;
+            transition: var(--transition);
+        }
+
+        .list-item:last-child {
+            border-bottom: none;
+        }
+
+        .list-item:hover {
+            background: #f9faff;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .status-active {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .status-pending {
+            background: #fff3e0;
+            color: #ef6c00;
+        }
+
+        @media (max-width: 992px) {
+            .list-header, .list-item { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; height: auto; position: relative; }
+            .content { padding: 1.5rem; }
+        }
+
+        @media (max-width: 576px) {
+            .list-header, .list-item { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="brand">
+            <h2><i class="fas fa-tools"></i> HomeService Pro</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/admin/dashboard"><i class="fas fa-chart-line"></i> Дашборд</a></li>
+            <li><a href="/admin/users"><i class="fas fa-users"></i> Пользователи</a></li>
+            <li><a href="/admin/services"><i class="fas fa-concierge-bell"></i> Услуги</a></li>
+            <li><a href="/admin/orders" class="active"><i class="fas fa-clipboard-list"></i> Заявки</a></li>
+            <li><a href="/admin/settings"><i class="fas fa-cog"></i> Настройки</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <section class="card">
+            <div class="card-header">
+                <h3>Управление заявками</h3>
+            </div>
+            
+            <div class="data-list">
+                <div class="list-header">
+                    <div>Услуга</div>
+                    <div>Клиент</div>
+                    <div>Дата</div>
+                    <div>Статус</div>
+                </div>
+                <% orders.forEach(order => { %>
+                <div class="list-item">
+                    <div><%= order.serviceTitle %></div>
+                    <div><%= order.Client ? order.Client.firstName + ' ' + order.Client.lastName : 'Не указан' %></div>
+                    <div><%= new Date(order.createdAt).toLocaleDateString() %></div>
+                    <div>
+                        <span class="status-badge <%= order.status === 'completed' ? 'status-active' : 'status-pending' %>">
+                            <%= order.status === 'new' ? 'Новый' : order.status === 'in_progress' ? 'В процессе' : 'Завершен' %>
+                        </span>
+                    </div>
+                </div>
+                <% }) %>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

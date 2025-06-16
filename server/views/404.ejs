@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'ru' ? 'Страница не найдена' : 'Page Not Found' %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title"><%= lang === 'ru' ? '404 - Страница не найдена' : '404 - Page Not Found' %></h2>
+            <a href="/" class="btn btn-primary"><%= lang === 'ru' ? 'На главную' : 'Back to Home' %></a>
+        </div>
+    </section>
+</body>
+</html>

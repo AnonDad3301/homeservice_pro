@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'ru' ? 'Каталог услуг' : 'Service Catalog' %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">HomeService Pro</div>
+                <div class="nav-links">
+                    <a href="/"><%= lang === 'ru' ? 'Главная' : 'Home' %></a>
+                    <a href="/services"><%= lang === 'ru' ? 'Услуги' : 'Services' %></a>
+                    <a href="/auth/login"><%= lang === 'ru' ? 'Вход' : 'Login' %></a>
+                    <% if (user) { %>
+                        <a href="/dashboard"><%= lang === 'ru' ? 'Личный кабинет' : 'Dashboard' %></a>
+                        <a href="/auth/logout"><%= lang === 'ru' ? 'Выход' : 'Logout' %></a>
+                    <% } %>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h1><%= lang === 'ru' ? 'Каталог услуг' : 'Service Catalog' %></h1>
+            <% if (user && user.role === 'master') { %>
+                <h2><%= lang === 'ru' ? 'Добавить услугу' : 'Add Service' %></h2>
+                <form action="/services/create" method="POST">
+                    <div>
+                        <label><%= lang === 'ru' ? 'Название' : 'Title' %></label>
+                        <input type="text" name="title" required>
+                    </div>
+                    <div>
+                        <label><%= lang === 'ru' ? 'Описание' : 'Description' %></label>
+                        <textarea name="description"></textarea>
+                    </div>
+                    <div>
+                        <label><%= lang === 'ru' ? 'Цена' : 'Price' %></label>
+                        <input type="number" name="price" required>
+                    </div>
+                    <div>
+                        <label><%= lang === 'ru' ? 'Категория' : 'Category' %></label>
+                        <input type="text" name="category" required>
+                    </div>
+                    <button type="submit"><%= lang === 'ru' ? 'Создать' : 'Create' %></button>
+                </form>
+            <% } %>
+            <h2><%= lang === 'ru' ? 'Доступные услуги' : 'Available Services' %></h2>
+            <% services.forEach(service => { %>
+                <div>
+                    <h3><%= service.title %></h3>
+                    <p><%= service.description || (lang === 'ru' ? 'Нет описания' : 'No description') %></p>
+                    <p><%= lang === 'ru' ? 'Цена' : 'Price' %>: <%= service.price %></p>
+                    <p><%= lang === 'ru' ? 'Категория' : 'Category' %>: <%= service.category %></p>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+</body>
+</html>

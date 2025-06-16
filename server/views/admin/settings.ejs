@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки | HomeService Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: <%= styles.primary %>;
+            --secondary: <%= styles.secondary %>;
+            --success: #4cc9f0;
+            --warning: #ffb703;
+            --danger: #e63946;
+            --dark: #2b2d42;
+            --light: #f8f9fa;
+            --gray: #8d99ae;
+            --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: <%= styles.background %>;
+            color: var(--dark);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: linear-gradient(180deg, var(--dark) 0%, #1d1f30 100%);
+            color: white;
+            padding: 1.5rem 0;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--card-shadow);
+            z-index: 100;
+        }
+
+        .brand {
+            padding: 0 1.5rem 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 1rem;
+        }
+
+        .brand h2 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.4rem;
+        }
+
+        .brand i {
+            color: var(--success);
+        }
+
+        .nav-links {
+            flex: 1;
+            padding: 0 1rem;
+        }
+
+        .nav-links li {
+            list-style: none;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .nav-links a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0.85rem 1rem;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .nav-links i {
+            width: 24px;
+            text-align: center;
+        }
+
+        .content {
+            flex: 1;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.75rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-header h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.85rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0.7rem 1.25rem;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .btn:hover {
+            background-color: var(--secondary);
+            transform: translateY(-2px);
+        }
+
+        .btn i {
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 992px) {
+            .form-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; height: auto; position: relative; }
+            .content { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="brand">
+            <h2><i class="fas fa-tools"></i> HomeService Pro</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/admin/dashboard"><i class="fas fa-chart-line"></i> Дашборд</a></li>
+            <li><a href="/admin/users"><i class="fas fa-users"></i> Пользователи</a></li>
+            <li><a href="/admin/services"><i class="fas fa-concierge-bell"></i> Услуги</a></li>
+            <li><a href="/admin/orders"><i class="fas fa-clipboard-list"></i> Заявки</a></li>
+            <li><a href="/admin/settings" class="active"><i class="fas fa-cog"></i> Настройки</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <section class="card">
+            <div class="card-header">
+                <h3>Настройки системы</h3>
+            </div>
+            
+            <form action="/admin/settings" method="post">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="primaryColor">Основной цвет</label>
+                        <input type="color" id="primaryColor" name="primaryColor" class="form-control" value="<%= settings.primaryColor || '#4361ee' %>">
+                    </div>
+                    <div class="form-group">
+                        <label for="secondaryColor">Вторичный цвет</label>
+                        <input type="color" id="secondaryColor" name="secondaryColor" class="form-control" value="<%= settings.secondaryColor || '#3f37c9' %>">
+                    </div>
+                    <div class="form-group">
+                        <label for="backgroundColor">Фоновый цвет</label>
+                        <input type="color" id="backgroundColor" name="backgroundColor" class="form-control" value="<%= settings.backgroundColor || '#f0f2f5' %>">
+                    </div>
+                </div>
+                <button type="submit" class="btn"><i class="fas fa-save"></i> Сохранить</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

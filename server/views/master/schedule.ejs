@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'ru' ? 'Расписание мастера' : 'Master Schedule' %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-home"></i>
+                    <span>HomeService Pro</span>
+                </div>
+                <div class="nav-links">
+                    <a href="/master/dashboard"><%= lang === 'ru' ? 'Дашборд' : 'Dashboard' %></a>
+                    <a href="/services"><%= lang === 'ru' ? 'Услуги' : 'Services' %></a>
+                    <a href="/auth/logout" class="btn btn-outline"><%= lang === 'ru' ? 'Выход' : 'Logout' %></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title"><%= lang === 'ru' ? 'Ваше расписание' : 'Your Schedule' %></h2>
+            <div class="schedule-grid">
+                <div class="schedule-day">
+                    <h3><%= lang === 'ru' ? 'Понедельник' : 'Monday' %></h3>
+                    <p><%= lang === 'ru' ? '9:00 - 17:00' : '9:00 - 17:00' %></p>
+                </div>
+                <div class="schedule-day">
+                    <h3><%= lang === 'ru' ? 'Вторник' : 'Tuesday' %></h3>
+                    <p><%= lang === 'ru' ? '9:00 - 17:00' : '9:00 - 17:00' %></p>
+                </div>
+                <!-- Добавить другие дни -->
+            </div>
+            <a href="/master/dashboard" class="btn btn-primary"><%= lang === 'ru' ? 'Назад' : 'Back' %></a>
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
